@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Onest:wght@300&family=Open+Sans:ital,wght@1,300&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400&family=Rowdies&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" type="image/jpeg" href="images/logo.jpeg"/>
+    <title>Contact Us Dynamic</title>
+  </head>
+  <header>
+    <nav>
+      <ul>
+        <li class="home-page">homepage</li>
+        <li class="team-page">team page</li>
+        <li class="contact-us">contact us</li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div class="contact-body">
+      <h1 class="top-contact-text">
+  
+      <div id="topImages"><img
+        src="images/logo.jpeg"
+        alt="The Vigilante Agnecy logo. It contains cartoon superheros and the VA letters in front."
+      /></div>
+      <h1 class="topContactText">
+        <span>Need a hero?</span> We're happy to help!
+      </h1>
+      <p class="top-contact-text" id="strapline">
+        Fill out our form and we'll get back to you in a millisecond (our admin
+        team is super too)!
+      </p>
+      <form>
+        <label for="name" >Name:</label>
+        <input class="contact-box" type="text" name="name" id="name" required />
+        <label for="company" >Company:</label>
+        <input class="contact-box" type="text" name="company" id="company" required />
+        <label for="email" >Email:</label>
+        <input class="contact-box" type="email" name="email" id="email" required />
+        <label for="phone" >Phone number:</label>
+        <input class="contact-box" type="tel" name="phone" id="phone" required />
+        <label for="hero-select">Preferred hero:</label>
+        <select name="hero" id="hero-select">
+          <option id="select">Select a superhero</option>
+          <option value="superwoman" id="wonderwoman">Wonder Woman</option>
+          <option value="batman" id="batman">Batman</option>
+          <option value="spiderman" id="spiderman">Spiderman</option>
+          <option value="ironman" id="ironman">Iron Man</option>
+          <option value="unknown" id="unknown">I'm not sure</option>
+        </select>
+        <p id="not-sure">
+          Not sure which hero is best for your company?
+          <a id="link-to-team" href="/team.html">Read their profiles first!</a>
+        </p>
+        <label for="message" >Tell us about how we can save your company:</label>
+        <textarea name="message" id="message"></textarea>
+        <button class="submit-btn" type="submit">Submit</button>
+        <div class="request-submitted-msg">
+          <div>
+            Your request has been <span> submitted</span>. A member of the Vigilante Agency will
+            contact you shortly.
+          </div>
+
+          </div>
+        
+         
+      </form>
+    </div>
+    <footer>
+      <div class="icon-parent-container">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <div class="year"></div>
+      <div class="footer-logo">
+        <img src="images/logo.jpeg" alt="Vigilante Agnecy Logo">
+      </div>
+    
+    </footer>
+    
+  </body>
+  <script src="index.js"></script>
+</html>
