@@ -20,7 +20,7 @@ ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  border-bottom: white 3px solid;
+  border-bottom: var(--tertiary-color) 3px solid;
   max-width: 100vw;
   background-color: var(--body-background-color);
   padding-left: 0;
@@ -75,7 +75,7 @@ li:hover {
   flex-direction: column;
   width: 400px;
   height: fit-content;
-  border: 4px #29a587 solid;
+  border: 4px var(--secondary-color) solid;
   border-radius: 10px;
 }
 
@@ -126,22 +126,20 @@ footer {
 }
 
 span {
-  color: #29a587;
+  color: var(--secondary-color)
 }
 form {
-  color: white;
+ 
   padding-left: 20px;
   padding-right: 20px;
 }
 
 p {
-  color: white;
+ 
   text-align: left;
 }
 
-h1 {
-  color: white;
-}
+
 
 label {
   display: block;
@@ -152,7 +150,7 @@ label {
   max-width: 450px;
   margin-left: auto;
   margin-right: auto;
-  border: solid 10px#29a587;
+  border: solid 10px var(--secondary-color);
   border-radius: 10px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -224,14 +222,13 @@ legend {
 }
 
 #not-sure {
-  color: white;
   margin-top: 0rem;
   font-size: 22px;
 }
 
 button {
   padding: 10px 30px;
-  background-color: #29a587;
+  background-color: var(--secondary-color);
   border-radius: 10px;
   border: none;
   font-size: 18px;
@@ -245,7 +242,7 @@ button {
 
 .super-hero-link {
   text-align: left;
-  color: #fff;
+
   cursor: pointer;
   margin-left: 0px;
   padding-left: 10px;
@@ -266,12 +263,12 @@ a:hover {
 }
 
 i {
-  color: #29a587;
+  color: var(--secondary-color);
 }
 
 
 #link-to-team {
-  color: #29a587;
+  color: var(--secondary-color);
   transition: color 1s ease-in-out;
 }
 
@@ -403,7 +400,7 @@ img {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #29a587;
+  background-color: var(--secondary-color);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -454,7 +451,7 @@ img {
 }
 
 .green {
-  background-color: #29a587;
+  background-color: var(--secondary-color);
 }
 
 
