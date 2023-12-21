@@ -113,6 +113,7 @@ if(contactBody) {
 
 if (superHeroMain) {
   superHeroes.forEach(superHeroe => {
+    const x = /*html*/
     superHeroMain.innerHTML += ` <section class="super-hero-section">
     <article class="bio-box">
       <h2>${superHeroe.name}</h2>
