@@ -1,4 +1,4 @@
-# ejproject1 – A Superhero Agnecy for FAC Project 1 by Josué Jure and Emily Turner
+# ejproject1 – A Superhero Agency for FAC Project 1 by Josué Jure and Emily Turner
 
 ## Desrciption
 
